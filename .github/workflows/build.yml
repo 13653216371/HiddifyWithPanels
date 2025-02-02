@@ -20,14 +20,14 @@ env:
   FLUTTER_VERSION: '3.24.0'
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   TAG_NAME: "${{ inputs.tag-name }}"
-  TARGET_NAME_apk: "Cloudlion-Android"
-  TARGET_NAME_exe: "Cloudlion-Windows-x64"
-  TARGET_NAME_dmg: "Cloudlion-MacOS"
-  TARGET_NAME_pkg: "Cloudlion-MacOS-Installer"
-  TARGET_NAME_ipa: "Cloudlion-iOS"
-  TARGET_NAME_AppImage: "Cloudlion-Linux-x64"
-  TARGET_NAME_deb: "Cloudlion-Debian-x64"
-  TARGET_NAME_rpm: "Cloudlion-rpm-x64"
+  TARGET_NAME_apk: "djw-Android"
+  TARGET_NAME_exe: "djw-Windows-x64"
+  TARGET_NAME_dmg: "djw-MacOS"
+  TARGET_NAME_pkg: "djw-MacOS-Installer"
+  TARGET_NAME_ipa: "djw-iOS"
+  TARGET_NAME_AppImage: "djw-Linux-x64"
+  TARGET_NAME_deb: "djw-Debian-x64"
+  TARGET_NAME_rpm: "djw-rpm-x64"
 
 jobs:
   build_linux:
