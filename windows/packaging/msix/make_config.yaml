@@ -1,12 +1,12 @@
-display_name: Cloudlion
-publisher_display_name: Cloudlion
-identity_name: Cloudlion.CloudlionNext
+display_name: djw
+publisher_display_name: djw
+identity_name: djw.djwNext
 msix_version: 2.5.7.0
 logo_path: windows\runner\resources\app_icon.ico
 capabilities: internetClient, internetClientServer, privateNetworkClientServer
 languages: en-us, zh-cn, zh-tw, tr-tr,fa-ir,ru-ru,pt-br,es-es
-protocol_activation: cloudlion
-execution_alias: cloudlion
+protocol_activation: djw
+execution_alias: djw
 certificate_path: windows\sign.pfx
 certificate_password:
 publisher: CN=8CB43675-F44B-4AA5-9372-E8727781BDC4
