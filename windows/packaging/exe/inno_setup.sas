@@ -68,8 +68,8 @@ function InitializeSetup(): Boolean;
 var
   ResultCode: Integer;
 begin
-  Exec('taskkill', '/F /IM Cloudlion.exe', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
-  Exec('net', 'stop "CloudlionTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
-  Exec('sc.exe', 'delete "CloudlionTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
+  Exec('taskkill', '/F /IM djw.exe', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
+  Exec('net', 'stop "djwTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
+  Exec('sc.exe', 'delete "djwTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
   Result := True;
 end;
